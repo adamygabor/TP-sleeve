@@ -1,0 +1,16 @@
+TP sleeve — Cursor rules (term-premium paper sleeve)
+
+## Scope
+
+- Signal / roll / executor SoT: `src/tp_sleeve/`
+- Shared sizing, risk, reconcile planner: sibling **FXCarry** `src/carry_sleeve/` (do not fork)
+- cTrader session + volume codec: **FXCarry** `src/ctrader_execution/`
+
+## Order gate
+
+- TP-only env: `FXAIEA_TP_ALLOW_CTRADER_ORDERS` (not `FXCARRY_*`, not legacy v7 `FXAIEA_ALLOW_*`)
+- Journal (cross-repo): `~/Dev/Forex/FXAIEA/docs/reports/fxaiea_journal_v1.md`
+
+## Frozen signal
+
+- `SLOPE_FLOOR` in `tp_sleeve/config.py` must match FXAIEA `bond_term_premium_gate` / hypothesis spec — no post-hoc tuning.

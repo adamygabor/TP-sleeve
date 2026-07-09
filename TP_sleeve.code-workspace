@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "name": "TP sleeve",
+      "path": "."
+    },
+    {
+      "name": "FXCarry (carry_sleeve dep)",
+      "path": "../FXCarry"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder:TP sleeve}/.venv/bin/python",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests"]
+  }
+}
