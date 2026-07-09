@@ -1,0 +1,2 @@
+requests>=2.28
+ctrader-open-api==0.9.2
