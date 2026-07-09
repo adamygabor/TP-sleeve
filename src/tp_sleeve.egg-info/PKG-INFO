@@ -1,7 +1,0 @@
-Metadata-Version: 2.4
-Name: tp-sleeve
-Version: 0.1.0
-Summary: TP sleeve — UST 10Y term-premium tradeability paper sleeve (ADR-041)
-Requires-Python: >=3.12
-Requires-Dist: requests>=2.28
-Requires-Dist: ctrader-open-api==0.9.2
