@@ -14,3 +14,9 @@ TP sleeve — Cursor rules (term-premium paper sleeve)
 ## Frozen signal
 
 - `SLOPE_FLOOR` in `tp_sleeve/config.py` must match FXAIEA `bond_term_premium_gate` / hypothesis spec — no post-hoc tuning.
+
+## Workspace kanon
+
+- **Cursor multi-root:** `TP_sleeve.code-workspace` (TP sleeve + FXCarry + `~/Dev/Forex/FXAIEA`).
+- **Cross-sleeve spec / beszélgetés-index SoT:** `docs/` (`docs/workspace_canonical_v1.md`).
+- Gate harness + journal: **FXAIEA Dev** — lásd `docs/workspace_canonical_v1.md`.

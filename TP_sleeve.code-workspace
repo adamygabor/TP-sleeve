@@ -7,6 +7,10 @@
     {
       "name": "FXCarry (carry_sleeve dep)",
       "path": "../FXCarry"
+    },
+    {
+      "name": "FXAIEA (gates, journal, harness)",
+      "path": "../../../../../../../../Dev/Forex/FXAIEA"
     }
   ],
   "settings": {
